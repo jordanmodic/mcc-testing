@@ -160,6 +160,7 @@ padding-bottom: 250px;
 	margin: 0 auto;
 	display: flex;
     justify-content: center;
+    align-items: center;
 }
 .divLeft{
 	position: relative;
@@ -230,7 +231,10 @@ padding: 10px;
 	background-image: url('https://montessorichildrenscommunity.hubbli.com/wp-content/uploads/sites/590/2023/04/1-maple-IMG_0373-cropped.jpg');
 	background-size: cover;
 	background-position: center center;
-	padding: 300px 0px 305px 0px;
+	padding-left: auto;
+    padding-right: auto;
+    padding-top: 30%;
+    padding-bottom: 30%;
 	float: left;
 	width: 100%;
 }
@@ -246,15 +250,20 @@ padding: 10px;
 }
 .callToActionLeft{
 	position: relative;
-	width: 65.33332%;
+	width: 50%;
 	float: left;
 	margin-right: 4%;
     background-color: rgba(0, 0, 0, 0.66);
+    padding-left: 10px;
 }
 .callToActionRight{
 	position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 	width: 30.66666%;
 	float: left;
+    height: 100%;
 }
 .callToActionBtn{
 	display: inline-block;
