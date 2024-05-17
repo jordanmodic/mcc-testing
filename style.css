@@ -596,9 +596,9 @@ padding: 10px;
 }
 
 .header-banner-2{
-//padding: 0px !important;
-//display: table;
-    //width: 100%;
+padding: 0px !important;
+display: table;
+    width: 100%;
 }
 
 @media(max-width: 720px){
